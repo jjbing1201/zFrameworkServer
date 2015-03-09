@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/opt/server/config/inimain.c
+stdio.h
+-
+ctype.h
+-
+string.h
+-
+inimain.h
+/opt/server/config/inimain.h
+stdlib.h
+-
+
+/opt/server/config/inimain.h
+stdio.h
+-
+
